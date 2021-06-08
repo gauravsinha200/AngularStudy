@@ -1,0 +1,6 @@
+<button (click)="onDisplayDetails()" class="btn btn-primary">Display Details</button>
+<p [ngStyle]="{visibility: getVisibility()}">Top Secret code- XXGGRRDDXXXYYYDD</p>
+
+<p *ngFor="let click of clicks" [ngStyle]="{backgroundColor: getBackground()}">
+   click no is {{ click }}
+</p>
